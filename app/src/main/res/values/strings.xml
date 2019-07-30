@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Exchange Rates</string>
+
+    <!--main activity-->
+    <string name="settings">Настройки</string>
+    <string name="exchange_rates">Курсы валют</string>
+
+    <!--pb_fr fragment-->
+    <string name="privat_bank">Приват банк</string>
+    <string name="select_date">Выберите дату</string>
+    <string name="currency">Валюта</string>
+    <string name="purchase">Покупка</string>
+    <string name="sale">Продажа</string>
+
+    <!--nbu_fr fragment-->
+    <string name="nbu">НБУ</string>
+
+</resources>

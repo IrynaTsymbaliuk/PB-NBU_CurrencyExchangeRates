@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/nav"
+            app:startDestination="@id/converterFr">
+
+    <fragment android:id="@+id/converterFr" android:name="com.example.exchangerates.ui.MainFr"
+    >
+        <action android:id="@+id/action_converterFr_to_nbu" app:destination="@id/nbu"/>
+        <action android:id="@+id/action_converterFr_to_pb" app:destination="@id/pb"/>
+    </fragment>
+
+    <fragment
+            android:id="@+id/pb"
+            android:name="com.example.exchangerates.ui.PbFr"/>
+
+    <fragment
+            android:id="@+id/nbu"
+            android:name="com.example.exchangerates.ui.NbuFr"/>
+
+</navigation>
